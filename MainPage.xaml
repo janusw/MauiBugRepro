@@ -36,7 +36,9 @@
                 SemanticProperties.Hint="Counts the number of times you click"
                 IsEnabled="{Binding Checked}"
                 Clicked="OnCounterClicked"
-                HorizontalOptions="Fill" />
+                HorizontalOptions="Fill"
+                TextColor="{StaticResource PrimaryDarkText}"
+                BackgroundColor="{StaticResource Secondary}" />
 
             <CheckBox
                 IsChecked="{Binding Checked, Mode=TwoWay}"
